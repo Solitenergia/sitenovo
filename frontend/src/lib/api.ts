@@ -2,7 +2,7 @@ import axios from 'axios'
 import { createClient } from './supabase'
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api',
+  baseURL: process.env.NEXT_PUBLIC_API_URL || '/api',
 })
 
 // Add auth token to every request
