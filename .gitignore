@@ -7,8 +7,11 @@ node_modules/
 .env*.local
 
 # Next.js
+.next/
+out/
 frontend/.next/
 frontend/out/
+next-env.d.ts
 
 # Build
 backend/dist/
