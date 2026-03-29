@@ -24,5 +24,8 @@ Thumbs.db
 *.swp
 *.swo
 
+# Supabase CLI
+supabase/.temp/
+
 # Debug
 npm-debug.log*
